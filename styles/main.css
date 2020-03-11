@@ -230,4 +230,42 @@
   font-size: 36px;
   font-weight: 600;
   color: #142b58;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.designed {
+  background-color: #f3f5f9;
+}
+
+.img-work img {
+  width: 70%;
+  padding: 20px;
+
+
+}
+
+.designed p {
+  margin-bottom: 40px;
+}
+.pseudo::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 40px;
+  color: #5c6a88;;
+}
+
+.pseudo::before {
+  content: "\f053";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 40px;
+  color: #5c6a88;
+}
+
+.text-designed h6 {
+  font-size: 13px;
+  color: #0e2656;
+  font-weight: 600;
 }
