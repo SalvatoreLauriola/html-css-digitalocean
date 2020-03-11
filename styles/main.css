@@ -179,3 +179,21 @@
   vertical-align: middle;
   padding-left: 10px;
 }
+
+
+.deploy {
+  padding: 40px 0;
+}
+
+
+.deploy h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #142b58;
+}
+
+.p-deploy {
+  font-size: 20px;
+  color: #5c6a88;
+  font-weight: 500;
+}
