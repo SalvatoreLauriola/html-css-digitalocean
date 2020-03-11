@@ -9,17 +9,21 @@
   width: 200px;
 }
 
-.pos-fix{
-  line-height: 80px, 80px;
-}
+#pos-fix {
 
+  padding:20px;
+  line-height: 60px;
+}
+#pos-fix img {
+  margin-top:10px;
+}
 .alignment {
-  padding: 20px;
-  height: 40px;
-  line-height: 40px;
-  background-color: white;
-}
 
+
+}
+.navbar-fixed-top {
+  background: white;
+}
 .over {
   color: #006aff;
   background-color: white;
@@ -54,8 +58,81 @@
 }
 
 .jumbo-tron {
+  margin-top: 31px;
+  padding: 40px 0;
+  background-repeat: no-repeat;
   background-image: url(../img/bg-banner-home.jpg);
-  height: 800px;
+  height: 440px;
   background-size: cover;
   background-position: center;
+}
+
+.white-box {
+  height: 360px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.jumbo-tron h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.jumbo-tron p {
+  font-size: 22px;
+  color: #a5bcff;
+}
+
+.blue {
+  font-weight: 600;
+  font-size: 30px;
+  color: #006aff;
+}
+
+.darkblue {
+  font-weight: 600;
+  font-size: 30px;
+  color: #031c4e;
+}
+
+.btns {
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.bottone1 .btns{
+  color: white;
+  background-color: #579aff;
+  border: none;
+  margin-bottom: 10px;
+
+}
+
+.bottone2 .btns{
+  color: #626262;
+  background-color: white;
+  box-shadow: 5px 0 white;;
+}
+
+.btn-rel {
+  position: relative;
+}
+
+.bottone2 img {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+}
+
+.text-center a {
+  text-decoration: underline;
+}
+
+.text-center h6 {
+  color: #031c4e;
+  font-size: 13px;
 }
