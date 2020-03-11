@@ -1,1 +1,61 @@
+ * {
+  font-family: 'Roboto Slab', serif;
+  box-sizing: border-box;
+}
 
+/* UTILITIES */
+
+.imgmod {
+  width: 200px;
+}
+
+.pos-fix{
+  line-height: 80px, 80px;
+}
+
+.alignment {
+  padding: 20px;
+  height: 40px;
+  line-height: 40px;
+  background-color: white;
+}
+
+.over {
+  color: #006aff;
+  background-color: white;
+  border-color: #006aff;
+  border-radius: 5px;
+}
+
+.list-inline a {
+  color: #031c4e;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.list-inline a:hover {
+  color: blue;
+}
+
+.over:hover {
+  background-color: #006aff;
+  color: #fff;
+}
+
+.arrow1 li:nth-child(odd) a::after,
+.arrow2 li:nth-child(even) a::after  {
+  content: "\f063";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  color: #7c98b6;
+  vertical-align: bottom;
+}
+
+.jumbo-tron {
+  background-image: url(../img/bg-banner-home.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
