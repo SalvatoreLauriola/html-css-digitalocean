@@ -49,11 +49,11 @@
 
 .arrow1 li:nth-child(odd) a::after,
 .arrow2 li:nth-child(even) a::after  {
-  content: "\f063";
+  content: "\f078";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 20px;
-  color: #7c98b6;
+  color: #031c4e;
   vertical-align: bottom;
 }
 
@@ -111,6 +111,10 @@
 
 }
 
+.bottone1 .btns:hover {
+  background-color: #1633ff;
+}
+
 .bottone2 .btns{
   color: #626262;
   background-color: white;
@@ -135,4 +139,43 @@
 .text-center h6 {
   color: #031c4e;
   font-size: 13px;
+}
+
+.banner h4 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #6f7b97;
+}
+
+
+.banner {
+  background-color: #f3f5f9;
+  padding: 40px 0;
+}
+
+
+.img-six img {
+  width: calc((100% / 6) - 10px);
+}
+
+
+.banner a {
+  text-decoration: none;
+
+}
+.custom {
+  text-decoration: none;
+  color: blue;
+
+}
+
+
+.banner a::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  color: blue;
+  vertical-align: middle;
+  padding-left: 10px;
 }
