@@ -187,7 +187,7 @@
 
 
 .deploy h3 {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 600;
   color: #142b58;
 }
@@ -196,4 +196,38 @@
   font-size: 20px;
   color: #5c6a88;
   font-weight: 500;
+}
+
+
+.spacing {
+  padding: 50px;
+}
+
+.spacing h4 {
+  color: #031c4e;
+  font-weight: 700;
+}
+
+.spacing p {
+  color: #5c6a88;
+}
+
+.spacing li {
+  padding: 20px 20px 0 10px;
+  color: #5c6a88;
+  font-weight: 600;
+  font-size: 16px;
+  border-left: 2px solid lightgrey;
+
+}
+
+.pad-fix {
+  padding-top: 17px;
+}
+
+
+.designed .text-designed h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #142b58;
 }
